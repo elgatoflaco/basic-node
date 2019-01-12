@@ -1,0 +1,22 @@
+{
+  "name": "node-basic",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^4.1.1",
+    "ejs": "^2.3.4",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "printer": "^0.2.2",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.2.0",
+    "ticket-printer": "^0.2.0"
+  }
+}
